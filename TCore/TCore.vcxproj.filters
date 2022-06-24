@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\FBX">
+      <UniqueIdentifier>{9883279d-f735-4236-adbe-0798bd0af7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Maneger">
+      <UniqueIdentifier>{46dffde4-a5e0-4fca-b589-a03963dfa903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Math">
+      <UniqueIdentifier>{24b6a36f-7848-4ced-ac31-60f459948c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{96e186e5-37f3-4df7-a1ac-26635cde1f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{af827fd4-4497-4d37-b737-a1f60c1934ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Map">
+      <UniqueIdentifier>{77faebe6-db55-438a-80a5-6023dc008d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\2D">
+      <UniqueIdentifier>{54623d9c-dbf1-4898-aea5-a8ce1e35c4f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="TCoreLib.vcxproj" />
+    <None Include="TCoreLib.vcxproj.filters" />
+    <None Include="TCoreLib.vcxproj.user" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TCollision.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TNode.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TSoundMgr.cpp">
+      <Filter>소스 파일\Maneger</Filter>
+    </ClCompile>
+    <ClCompile Include="TTexturerMgr.cpp">
+      <Filter>소스 파일\Maneger</Filter>
+    </ClCompile>
+    <ClCompile Include="TShaderMgr.cpp">
+      <Filter>소스 파일\Maneger</Filter>
+    </ClCompile>
+    <ClCompile Include="TObjectMgr.cpp">
+      <Filter>소스 파일\Maneger</Filter>
+    </ClCompile>
+    <ClCompile Include="TMath.cpp">
+      <Filter>소스 파일\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TMatrix.cpp">
+      <Filter>소스 파일\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TVector2.cpp">
+      <Filter>소스 파일\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TVector3.cpp">
+      <Filter>소스 파일\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TBoxObj.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TCamera.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TSkyObj.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TInput.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TTimer.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TWindow.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TFbxModel.cpp">
+      <Filter>소스 파일\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="TFbxImporter.cpp">
+      <Filter>소스 파일\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="TWriteFont.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TDxState.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TDevice.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TWorld.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TQuadtree.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TFbxVertexLoader.cpp">
+      <Filter>소스 파일\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="TObject2D.cpp">
+      <Filter>소스 파일\Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="TPlaneObj.cpp">
+      <Filter>소스 파일\Object\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="TCore.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="TDxObject.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TObject3D.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TFrustum.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TMap.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TShaderMgr.h">
+      <Filter>소스 파일\Maneger</Filter>
+    </ClInclude>
+    <ClInclude Include="TSoundMgr.h">
+      <Filter>소스 파일\Maneger</Filter>
+    </ClInclude>
+    <ClInclude Include="TTextureMgr.h">
+      <Filter>소스 파일\Maneger</Filter>
+    </ClInclude>
+    <ClInclude Include="TBaseMgr.h">
+      <Filter>소스 파일\Maneger</Filter>
+    </ClInclude>
+    <ClInclude Include="TObjectMgr.h">
+      <Filter>소스 파일\Maneger</Filter>
+    </ClInclude>
+    <ClInclude Include="TVector2.h">
+      <Filter>소스 파일\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TVector3.h">
+      <Filter>소스 파일\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TMath.h">
+      <Filter>소스 파일\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TMatrix.h">
+      <Filter>소스 파일\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TSkyObj.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TBoxObj.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TCamera.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TInput.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TWindow.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TTimer.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TStd.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TFbxImporter.h">
+      <Filter>소스 파일\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="TWriteFont.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TDxState.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TDevice.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TWorld.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TQuadtree.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TCore.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TObject2D.h">
+      <Filter>소스 파일\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="TPlaneObj.h">
+      <Filter>소스 파일\Object\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="TDxObject.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TObject3D.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TFrustum.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TMap.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TCollision.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TNode.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
